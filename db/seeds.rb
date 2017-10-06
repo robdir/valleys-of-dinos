@@ -9,3 +9,6 @@
 dino1 = Dinosaur.create!( { name: "Doobasaurus", age: 15, image_url:"http://www.pngall.com/wp-content/uploads/2016/06/Dinosaur-PNG-Clipart.png"})
 dino2 = Dinosaur.create!( { name: "Pterodactyl", age: 24, image_url: "https://images-na.ssl-images-amazon.com/images/I/41kc5xG21eL.jpg" })
 dino3 = Dinosaur.create!( { name: "Stegosaurus", age: 56, image_url: "https://vignette1.wikia.nocookie.net/dino/images/4/4c/Stegosaurus-detail-header.png/revision/latest?cb=20150407211604"})
+dino4 = Dinosaur.create!( { name: "Velociraptor", age: (1 + rand(100)), image_url: "https://vignette2.wikia.nocookie.net/jurassicpark/images/1/12/Velociraptor-detail-header.png/revision/latest?cb=20150420213742" })
+
+#//
