@@ -18,7 +18,6 @@ class DinosaursController < ApplicationController
   end
 
   def create
-
     @dinosaur = Dinosaur.new(dinosaur_params)
 
     if @dinosaur.save

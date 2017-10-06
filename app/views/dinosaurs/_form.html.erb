@@ -1,5 +1,10 @@
 <%= form_for @dinosaur do |f| %>
 
+  <ul>
+    <% @dinosaur.errors.full_errors.each do |msg| %>
+      <li><%= message %></li>
+    </ul>
+    
   <%= f.label :name %>
   <%= f.text_field :name %>
 
